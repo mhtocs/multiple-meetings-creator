@@ -12,6 +12,7 @@ dataclasses-json = {editable = true, ref = "fix-to_json", git = "https://github.
 flask-session = "*"
 redis = "*"
 coloredlogs = "*"
+celery = "*"
 
 [dev-packages]
 pytest = "*"
