@@ -12,3 +12,18 @@ I know they are not too much & I can create/update them manually but i am too la
 In this app i can just upload that spreadsheet & it creates/updates the meeting 
 for me.
 
+
+## Development 
+
+### Activate shell
+
+- Make sure you have python3 & pipenv installed
+
+```
+pipenv shell
+```
+
+## Tests
+```
+pipenv run tests
+```
