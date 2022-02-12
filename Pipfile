@@ -8,8 +8,18 @@ flask = "*"
 requests = "*"
 requests-oauthlib = "*"
 python-dotenv = "*"
+dataclasses-json = {editable = true, ref = "fix-to_json", git = "https://github.com/mhtocs/dataclasses-json.git"}
+flask-session = "*"
+redis = "*"
+coloredlogs = "*"
 
 [dev-packages]
+pytest = "*"
+pytest-sugar = "*"
+pytest-icdiff = "*"
+
+[scripts]
+tests = "pytest --disable-pytest-warnings -vv"
 
 [requires]
 python_version = "3.8"
