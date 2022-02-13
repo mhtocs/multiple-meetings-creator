@@ -12,6 +12,10 @@ I know they are not too much & I can create/update them manually but i am too la
 In this app i can just upload that spreadsheet & it creates/updates the meeting 
 for me.
 
+# VD
+
+![Landing Page](vd/multiple-meetings-landing.png)
+
 
 ## Development 
 
